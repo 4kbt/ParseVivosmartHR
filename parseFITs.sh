@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#This code licensed under GPL v3. CAH.
+
 bin/fitdump *.fit | grep -e heart -e timestamp | 
 
 sed 's/(//g' | sed 's/)//g' |  
