@@ -1,6 +1,8 @@
 #! /usr/bin/perl -s
 
-use Garmin::FIT;
+use lib 'Garmin/'; 
+#use Garmin::FIT;
+use FIT;
 
 $semicircles_to_deg = 1 if !defined $semicircles_to_deg;
 $mps_to_kph = 1 if !defined $mps_to_kph;

@@ -2,7 +2,7 @@
 
 #This code licensed under GPL v3. CAH.
 
-bin/fitdump *.fit | grep -e heart -e timestamp | 
+bin/fitdump data/*.fit | grep -e heart -e timestamp | 
 
 sed 's/(//g' | sed 's/)//g' |  
 
